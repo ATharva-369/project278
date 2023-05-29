@@ -1,0 +1,53 @@
+#VRML_SIM R2023a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/factory/containers/protos/CardboardBox.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/animals/protos/Cat.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/balls/protos/FifaSoccerBall.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/robots/gctronic/e-puck/protos/E-puck.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.15821319382409865 0.18345985902486978 0.9702118662573413 1.453274158763498
+  position -2.2116343370881113 -10.849940265614608 4.779376910066451
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorSize 5 5
+  floorTileSize 3 3
+  wallThickness 0.05
+  wallHeight 0.05
+}
+CardboardBox {
+  translation -0.549811 1.71448 0.3
+}
+Cat {
+  translation -0.88 0 0
+  rotation 0 1 0 0
+}
+FifaSoccerBall {
+  hidden linearVelocity_0 -7.795391132652152e-05 -0.001135737884484547 8.672173411260922e-17
+  hidden angularVelocity_0 0.010095447862084862 -0.0006929236562357469 2.9552454491131552e-05
+  translation -1.647420527585515 -2.172538588219763 0.11182507199999998
+  rotation 0.730665409722276 -0.6260743868405525 0.27232135644786437 -2.5025327809519156
+}
+E-puck {
+  hidden position_0_0 289.5615249728737
+  hidden position_0_1 318.7697858036018
+  hidden linearVelocity_0 -0.05279094649119018 -0.0193155387346914 -1.9389398614532432e-08
+  hidden angularVelocity_0 0.0004395641105353952 -0.0012132479782993436 0.09313281090994094
+  hidden rotation_1 0 1 0 0.5350008426127351
+  hidden linearVelocity_1 -0.05052335849690848 -0.018485749042730388 1.1030481110061708e-09
+  hidden angularVelocity_1 0.9203855520856934 -2.5153569413182373 0.09485578395876745
+  hidden rotation_2 0 1 0 4.610520444622468
+  hidden linearVelocity_2 -0.05507078051202838 -0.020149434159235802 -4.406289452569726e-10
+  hidden angularVelocity_2 1.0113304576107505 -2.7642320909600966 0.09512588354837359
+  translation -0.50893399315444 1.1515330293986992 -6.43150817720619e-05
+  rotation -9.333388308479276e-05 -7.50452149778503e-05 -0.9999999928285008 2.789084154167602
+}
